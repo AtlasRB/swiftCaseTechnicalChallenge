@@ -1,5 +1,23 @@
+body {
+    margin: 0;
+}
+
 #randomBottomRightImage {
     position: fixed; /*NOTE: uses fixed to keep image in bottom right irrelevant of scrolling*/
     right: 0px;
     bottom: 0px;
+}
+
+#pageNav {
+    background-color: rgb(120, 120, 120);
+    padding: 0.5%;
+    text-align: center;
+    margin-bottom: 4%;
+}
+.links {
+    margin: 8%;
+    padding: 0.2%;
+    text-decoration: none;
+    background-color: rgb(160, 160, 160);
+    border-radius: 10%;
 }
