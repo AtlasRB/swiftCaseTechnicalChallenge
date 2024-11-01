@@ -1,0 +1,5 @@
+#randomBottomRightImage {
+    position: fixed; /*NOTE: uses fixed to keep image in bottom right irrelevant of scrolling*/
+    right: 0px;
+    bottom: 0px;
+}
