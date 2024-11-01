@@ -6,14 +6,14 @@
     <title>Swift Case Technical Challenge</title>
 
     <link rel="stylesheet" href="" type="text/css"> <!--NEED TO ADD CSS-->
-    <script defer src=""></script> <!--NEED TO ADD JS-->
+    <script defer src="JavaScript/technicalChallenge.js"></script>
 </head>
 
 <body>
-    <form method="get">
+    <form method="get" id="getProductStatusID">
         <label for="productStatusID">Product Status ID</label>
-        <input type="text" name="productStatusID"> <!--NOTE: used type="text" since step 1 specified a textbox, otherwise I would have used type="number" since its selecting an integer number.-->
-        <button name="submit"> <!--NOTE: step 1 specifically mentions adding a button otherwise would have used <input type="submit"> instead.-->
+        <input type="text" name="productStatusID" id="productStatusID"> <!--NOTE: used type="text" since step 1 specified a textbox, otherwise I would have used type="number" since its selecting an integer number.-->
+        <button type="submit" name="submit"> <!--NOTE: step 1 specifically mentions adding a button otherwise would have used <input type="submit"> instead.-->
             Request
         </button>
     </form>
